@@ -1,0 +1,39 @@
+name: outfitcast
+description: "A new Flutter project."
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  weather: ^3.1.1
+  google_fonts: ^4.0.5
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/outfit/25/
+    - assets/outfit/20/
+    - assets/outfit/15/
+    - assets/outfit/10/
+    - assets/outfit/5/
+    - assets/outfit/-5/
+    - assets/outfit/-10/
+    - assets/outfit/-15/
+    - assets/outfit/-20/
+    - assets/forecast/sun/
+    - assets/forecast/moon/
+    - assets/forecast/snow/
+    - assets/forecast/mist/
+
